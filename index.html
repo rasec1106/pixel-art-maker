@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel art maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header"></div>
+    <div class="container">
+        <p>This is the place where we are going to paint</p>
+        <div class="paint">
+            <div class="paint__menu">
+                <button class="button" id="undoButton">undo</button>
+                <button class="button">b</button>
+                <button class="button">c</button>
+                <button class="button">d</button>
+            </div>
+            <div id="gridCanvas" class="paint__area canvas"></div>
+        </div>
+        <p>This is where the colors are:</p>
+        <div class="palette">
+            <div class="palette__color-item"></div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    
+    <script src="mainScript.js"></script>
+
+</body>
+</html>
